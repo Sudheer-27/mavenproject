@@ -10,7 +10,7 @@
   <artifactId>mavenproject</artifactId>
   
   <packaging>war</packaging>
-	<version>1.0</version>
+	<version>1.${BUILD_NUMBER}</version>
 
   <name>mavenproject Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
