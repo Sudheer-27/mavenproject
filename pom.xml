@@ -46,14 +46,12 @@
   </dependencies>
    <distributionManagement>
       <snapshotRepository>
-        <id>nexus</id>
-        <name>devopsmarkonda</name>
-		<url>http://44.200.242.38:8081/repository/test/</url>
+        <id>nexus-snapshots</id>
+		<url>http://98.81.127.186:8081/repository/nexus-snapshots/</url>
       </snapshotRepository>
       <repository>
-        <id>nexus</id>
-        <name>devopsmarkonda</name>
-		<url>http://44.200.242.38:8081/repository/test/</url>
+        <id>nexus-snapshots</id>
+		<url>http://98.81.127.186:8081/repository/nexus-releases/</url>
       </repository>
 	
    </distributionManagement>
